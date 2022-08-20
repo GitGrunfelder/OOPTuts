@@ -37,7 +37,7 @@ data1.change_number(0,100)
 print(data1.numbers)
 data1._change_data() #<--- Throws error, shouldn't have invoked method on a tuple, denoted by naming with underscore.
 
-#-----------------------------INHERETANCE----------------------------
+#-----------------------------INHERITANCE----------------------------
 class Shape:
     def __init__(self, w, l):
         self.width = w
